@@ -11,6 +11,9 @@ export default defineConfig({
 			plugins: [tailwind(), autoprefixer()],
 		},
 	},
+	server: {
+    port: 4610,
+  },
 	plugins: [vue()],
 	resolve: {
 		alias: {
